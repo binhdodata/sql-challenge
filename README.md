@@ -26,6 +26,7 @@ Listing the department number for each employee with their details.
 Listing all employees with a certain first name and last name starting with a certain letter.
 Listing all employees in a specific department.
 Listing the frequency counts of employee last names in descending order.
+
 Getting Started
 Clone this repository to your local machine. The repository should include a directory called EmployeeSQL which contains all the necessary SQL scripts and CSV files.
 
