@@ -20,25 +20,39 @@ Import each CSV file into its corresponding SQL table.
 Perform various data analysis tasks such as:
 
 Listing details of each employee like employee number, last name, first name, sex, and salary.
+
 Listing employees hired in a specific year.
+
 Listing the manager of each department with their details.
+
 Listing the department number for each employee with their details.
+
 Listing all employees with a certain first name and last name starting with a certain letter.
+
 Listing all employees in a specific department.
+
 Listing the frequency counts of employee last names in descending order.
 
 Getting Started
-Clone this repository to your local machine. The repository should include a directory called EmployeeSQL which contains all the necessary SQL scripts and CSV files.
+
+Clone this repository to your local machine. 
+
+The repository should include a directory called EmployeeSQL which contains all the necessary SQL scripts and CSV files.
 
 Prerequisites
 Ensure you have PostgreSQL installed on your machine. If not, you can download it here.
 
+
 Installation
+
 Open PostgreSQL and create a new database.
-Run the SQL scripts provided in the EmployeeSQL directory to create the tables and import the data. Make sure you run the table creation scripts before the data import scripts to avoid foreign key conflicts.
+
+Run the SQL scripts provided in the EmployeeSQL directory to create the tables and import the data. 
+
+Make sure you run the table creation scripts before the data import scripts to avoid foreign key conflicts.
+
 Now that the database is set up, you can start querying the data.
-Built With
-PostgreSQL
-QuickDBD for the ERD
+
+
 Acknowledgements
 This project has been assigned as part of the Data Engineering module. It is intended to provide practical exposure to designing and working with databases.
